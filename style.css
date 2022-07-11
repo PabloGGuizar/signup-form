@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: #092715;
+    color: #04130b;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+    }
+}
+
+.container {
+    background-color: #ede5c2;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    max-width: 76rem;
+    width: 100%; 
+}
+
+.img-container {
+    background-image: url('./images/tangerine-unsplash.jpg');
+    background-position: center;
+    flex: 40%;
+}
+
+.title {
+    background-color: rgba(9, 39, 21, 0.75);
+    margin-top: 40%;
+    padding: 20px 0;
+}
+
+.footer {
+    background-color: rgba(9, 39, 21, 0.75);
+    color: #ffffff;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 0 10px 0 0;
+    font-size: 0.8rem;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.form-container {
+    align-items: center;
+    display: flex;
+    flex: 60%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+form {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+fieldset {
+    background-color: #f6f2e1;
+    border: none;
+    border-top: 1px solid #e4d7a4;
+    box-shadow: 0 5px 9px -7px #092715;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+fieldset h4 {
+    flex: 100%;
+    padding: 10px;
+}
+
+.group-form {
+    flex: 50%;
+    min-width: 18rem;
+    padding: 10px;
+}
+
+label {
+    font-size: 1rem;
+    font-variant: small-caps;
+}
+
+input {
+    border: 1px solid #092715;
+    border-radius: 6px;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+input:focus {
+    outline: 3px solid #76c195;
+}
+
+.btn-container {
+    padding: 10px;
+}
+
+button {
+    background-color: #239b56;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -7px #092715;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+a {
+    color: #239b56;
+}
